@@ -7,7 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C6104CFA226E981200621441 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6104CF9226E981200621441 /* main.m */; };
+		C6104E11226EB60800621441 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6104E0F226EB60800621441 /* main.cpp */; };
+		C6104E49226EBD5C00621441 /* libicudata.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6104E43226EBD5B00621441 /* libicudata.a */; };
+		C6104E4A226EBD5C00621441 /* libicuuc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6104E44226EBD5B00621441 /* libicuuc.a */; };
+		C6104E4B226EBD5C00621441 /* libicui18n.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6104E45226EBD5C00621441 /* libicui18n.a */; };
+		C6104E4C226EBD5C00621441 /* libicuio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6104E46226EBD5C00621441 /* libicuio.a */; };
+		C6104E4D226EBD5C00621441 /* libicutu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6104E47226EBD5C00621441 /* libicutu.a */; };
+		C6104EED226EF32600621441 /* libsfnt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6104EEC226EF32600621441 /* libsfnt.a */; };
+		C6104F08226EFBFB00621441 /* SSubsetter.cc in Sources */ = {isa = PBXBuildFile; fileRef = C6104F03226EFBFA00621441 /* SSubsetter.cc */; };
+		C6104F09226EFBFB00621441 /* character_predicate.cc in Sources */ = {isa = PBXBuildFile; fileRef = C6104F04226EFBFA00621441 /* character_predicate.cc */; };
+		C6104F0A226EFBFB00621441 /* stats.cc in Sources */ = {isa = PBXBuildFile; fileRef = C6104F05226EFBFB00621441 /* stats.cc */; };
+		C6104F0B226EFBFB00621441 /* utils.cc in Sources */ = {isa = PBXBuildFile; fileRef = C6104F07226EFBFB00621441 /* utils.cc */; };
+		C6104F0E226EFC9C00621441 /* font_assembler.cc in Sources */ = {isa = PBXBuildFile; fileRef = C6104F0D226EFC9C00621441 /* font_assembler.cc */; };
+		C6104F11226EFCFF00621441 /* font_info.cc in Sources */ = {isa = PBXBuildFile; fileRef = C6104F0F226EFCFF00621441 /* font_info.cc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +36,68 @@
 
 /* Begin PBXFileReference section */
 		C6104CF6226E981200621441 /* sfntNewDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sfntNewDemo; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6104CF9226E981200621441 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6104D01226E981D00621441 /* benmo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = benmo.ttf; sourceTree = "<group>"; };
+		C6104D2D226EA0B800621441 /* libicudata.64.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicudata.64.2.dylib; path = ../../../Downloads/icu/icu4c/source/lib/libicudata.64.2.dylib; sourceTree = "<group>"; };
+		C6104D2F226EA0CC00621441 /* libicui18n.64.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicui18n.64.2.dylib; path = ../../../Downloads/icu/icu4c/source/lib/libicui18n.64.2.dylib; sourceTree = "<group>"; };
+		C6104D31226EA0D200621441 /* libicuio.64.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicuio.64.2.dylib; path = ../../../Downloads/icu/icu4c/source/lib/libicuio.64.2.dylib; sourceTree = "<group>"; };
+		C6104D33226EA0D500621441 /* libicutu.64.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicutu.64.2.dylib; path = ../../../Downloads/icu/icu4c/source/lib/libicutu.64.2.dylib; sourceTree = "<group>"; };
+		C6104D35226EA0DA00621441 /* libicuuc.64.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicuuc.64.2.dylib; path = ../../../Downloads/icu/icu4c/source/lib/libicuuc.64.2.dylib; sourceTree = "<group>"; };
+		C6104E0F226EB60800621441 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C6104E10226EB60800621441 /* main.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = main.hpp; sourceTree = "<group>"; };
+		C6104E27226EBD4900621441 /* type.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = type.h; sourceTree = "<group>"; };
+		C6104E28226EBD4900621441 /* subsetter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = subsetter.h; sourceTree = "<group>"; };
+		C6104E29226EBD4900621441 /* tag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tag.h; sourceTree = "<group>"; };
+		C6104E2A226EBD4900621441 /* font_output_stream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = font_output_stream.h; sourceTree = "<group>"; };
+		C6104E2B226EBD4900621441 /* header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = header.h; sourceTree = "<group>"; };
+		C6104E2C226EBD4900621441 /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		C6104E2D226EBD4900621441 /* endian.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = endian.h; sourceTree = "<group>"; };
+		C6104E2E226EBD4900621441 /* memory_output_stream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = memory_output_stream.h; sourceTree = "<group>"; };
+		C6104E2F226EBD4900621441 /* lock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lock.h; sourceTree = "<group>"; };
+		C6104E30226EBD4900621441 /* input_stream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = input_stream.h; sourceTree = "<group>"; };
+		C6104E31226EBD4900621441 /* readable_font_data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = readable_font_data.h; sourceTree = "<group>"; };
+		C6104E32226EBD4900621441 /* font_data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = font_data.h; sourceTree = "<group>"; };
+		C6104E33226EBD4900621441 /* subtable_container_table.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = subtable_container_table.h; sourceTree = "<group>"; };
+		C6104E34226EBD4900621441 /* table_subsetter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = table_subsetter.h; sourceTree = "<group>"; };
+		C6104E35226EBD4900621441 /* cmap_table.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cmap_table.h; sourceTree = "<group>"; };
+		C6104E36226EBD4900621441 /* font_input_stream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = font_input_stream.h; sourceTree = "<group>"; };
+		C6104E37226EBD4900621441 /* font_factory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = font_factory.h; sourceTree = "<group>"; };
+		C6104E38226EBD4900621441 /* output_stream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = output_stream.h; sourceTree = "<group>"; };
+		C6104E39226EBD4900621441 /* byte_array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = byte_array.h; sourceTree = "<group>"; };
+		C6104E3A226EBD4900621441 /* table.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = table.h; sourceTree = "<group>"; };
+		C6104E3B226EBD4900621441 /* font.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = font.h; sourceTree = "<group>"; };
+		C6104E3C226EBD4900621441 /* refcount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = refcount.h; sourceTree = "<group>"; };
+		C6104E3D226EBD4900621441 /* subtable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = subtable.h; sourceTree = "<group>"; };
+		C6104E3E226EBD4900621441 /* memory_byte_array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = memory_byte_array.h; sourceTree = "<group>"; };
+		C6104E3F226EBD4900621441 /* writable_font_data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = writable_font_data.h; sourceTree = "<group>"; };
+		C6104E40226EBD4900621441 /* font_data_table.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = font_data_table.h; sourceTree = "<group>"; };
+		C6104E41226EBD4900621441 /* atomic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = atomic.h; sourceTree = "<group>"; };
+		C6104E43226EBD5B00621441 /* libicudata.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libicudata.a; sourceTree = "<group>"; };
+		C6104E44226EBD5B00621441 /* libicuuc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libicuuc.a; sourceTree = "<group>"; };
+		C6104E45226EBD5C00621441 /* libicui18n.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libicui18n.a; sourceTree = "<group>"; };
+		C6104E46226EBD5C00621441 /* libicuio.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libicuio.a; sourceTree = "<group>"; };
+		C6104E47226EBD5C00621441 /* libicutu.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libicutu.a; sourceTree = "<group>"; };
+		C6104EEC226EF32600621441 /* libsfnt.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsfnt.a; sourceTree = "<group>"; };
+		C6104F00226EFBFA00621441 /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		C6104F01226EFBFA00621441 /* character_predicate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = character_predicate.h; sourceTree = "<group>"; };
+		C6104F02226EFBFA00621441 /* stats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stats.h; sourceTree = "<group>"; };
+		C6104F03226EFBFA00621441 /* SSubsetter.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SSubsetter.cc; sourceTree = "<group>"; };
+		C6104F04226EFBFA00621441 /* character_predicate.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = character_predicate.cc; sourceTree = "<group>"; };
+		C6104F05226EFBFB00621441 /* stats.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stats.cc; sourceTree = "<group>"; };
+		C6104F06226EFBFB00621441 /* SSubsetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSubsetter.h; sourceTree = "<group>"; };
+		C6104F07226EFBFB00621441 /* utils.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = utils.cc; sourceTree = "<group>"; };
+		C6104F0C226EFC9C00621441 /* font_assembler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = font_assembler.h; sourceTree = "<group>"; };
+		C6104F0D226EFC9C00621441 /* font_assembler.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = font_assembler.cc; sourceTree = "<group>"; };
+		C6104F0F226EFCFF00621441 /* font_info.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = font_info.cc; sourceTree = "<group>"; };
+		C6104F10226EFCFF00621441 /* font_info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = font_info.h; sourceTree = "<group>"; };
+		C6104F12226EFD6D00621441 /* growable_memory_byte_array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = growable_memory_byte_array.h; sourceTree = "<group>"; };
+		C6104F13226EFD9100621441 /* file_input_stream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = file_input_stream.h; sourceTree = "<group>"; };
+		C6104F14226EFDB000621441 /* glyph_table.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = glyph_table.h; sourceTree = "<group>"; };
+		C6104F15226EFDD100621441 /* loca_table.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = loca_table.h; sourceTree = "<group>"; };
+		C6104F16226EFE1200621441 /* java_iterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = java_iterator.h; sourceTree = "<group>"; };
+		C6104F17226EFE3F00621441 /* font_header_table.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = font_header_table.h; sourceTree = "<group>"; };
+		C6104F18226EFE5700621441 /* table_based_table_builder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = table_based_table_builder.h; sourceTree = "<group>"; };
+		C6104F19226EFE8000621441 /* maximum_profile_table.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = maximum_profile_table.h; sourceTree = "<group>"; };
+		C6104F1A226EFE9E00621441 /* table_based_table_builder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = table_based_table_builder.h; path = "../../../../../GitHub/sfntly-master/cpp/src/sfntly/table/table_based_table_builder.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +105,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6104E4A226EBD5C00621441 /* libicuuc.a in Frameworks */,
+				C6104E4C226EBD5C00621441 /* libicuio.a in Frameworks */,
+				C6104EED226EF32600621441 /* libsfnt.a in Frameworks */,
+				C6104E4D226EBD5C00621441 /* libicutu.a in Frameworks */,
+				C6104E49226EBD5C00621441 /* libicudata.a in Frameworks */,
+				C6104E4B226EBD5C00621441 /* libicui18n.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +122,7 @@
 			children = (
 				C6104CF8226E981200621441 /* sfntNewDemo */,
 				C6104CF7226E981200621441 /* Products */,
+				C6104D05226E982800621441 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +137,85 @@
 		C6104CF8226E981200621441 /* sfntNewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				C6104CF9226E981200621441 /* main.m */,
+				C6104F0F226EFCFF00621441 /* font_info.cc */,
+				C6104F10226EFCFF00621441 /* font_info.h */,
+				C6104F0D226EFC9C00621441 /* font_assembler.cc */,
+				C6104F0C226EFC9C00621441 /* font_assembler.h */,
+				C6104F04226EFBFA00621441 /* character_predicate.cc */,
+				C6104F01226EFBFA00621441 /* character_predicate.h */,
+				C6104F05226EFBFB00621441 /* stats.cc */,
+				C6104F02226EFBFA00621441 /* stats.h */,
+				C6104F03226EFBFA00621441 /* SSubsetter.cc */,
+				C6104F06226EFBFB00621441 /* SSubsetter.h */,
+				C6104F07226EFBFB00621441 /* utils.cc */,
+				C6104F00226EFBFA00621441 /* utils.h */,
+				C6104EEC226EF32600621441 /* libsfnt.a */,
+				C6104E43226EBD5B00621441 /* libicudata.a */,
+				C6104E45226EBD5C00621441 /* libicui18n.a */,
+				C6104E46226EBD5C00621441 /* libicuio.a */,
+				C6104E47226EBD5C00621441 /* libicutu.a */,
+				C6104E44226EBD5B00621441 /* libicuuc.a */,
+				C6104E26226EBD4900621441 /* include */,
+				C6104D01226E981D00621441 /* benmo.ttf */,
+				C6104E0F226EB60800621441 /* main.cpp */,
+				C6104E10226EB60800621441 /* main.hpp */,
 			);
 			path = sfntNewDemo;
+			sourceTree = "<group>";
+		};
+		C6104D05226E982800621441 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6104D35226EA0DA00621441 /* libicuuc.64.2.dylib */,
+				C6104D33226EA0D500621441 /* libicutu.64.2.dylib */,
+				C6104D31226EA0D200621441 /* libicuio.64.2.dylib */,
+				C6104D2F226EA0CC00621441 /* libicui18n.64.2.dylib */,
+				C6104D2D226EA0B800621441 /* libicudata.64.2.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6104E26226EBD4900621441 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				C6104F18226EFE5700621441 /* table_based_table_builder.h */,
+				C6104F1A226EFE9E00621441 /* table_based_table_builder.h */,
+				C6104F19226EFE8000621441 /* maximum_profile_table.h */,
+				C6104F17226EFE3F00621441 /* font_header_table.h */,
+				C6104F16226EFE1200621441 /* java_iterator.h */,
+				C6104F15226EFDD100621441 /* loca_table.h */,
+				C6104F14226EFDB000621441 /* glyph_table.h */,
+				C6104F13226EFD9100621441 /* file_input_stream.h */,
+				C6104F12226EFD6D00621441 /* growable_memory_byte_array.h */,
+				C6104E27226EBD4900621441 /* type.h */,
+				C6104E28226EBD4900621441 /* subsetter.h */,
+				C6104E29226EBD4900621441 /* tag.h */,
+				C6104E2A226EBD4900621441 /* font_output_stream.h */,
+				C6104E2B226EBD4900621441 /* header.h */,
+				C6104E2C226EBD4900621441 /* config.h */,
+				C6104E2D226EBD4900621441 /* endian.h */,
+				C6104E2E226EBD4900621441 /* memory_output_stream.h */,
+				C6104E2F226EBD4900621441 /* lock.h */,
+				C6104E30226EBD4900621441 /* input_stream.h */,
+				C6104E31226EBD4900621441 /* readable_font_data.h */,
+				C6104E32226EBD4900621441 /* font_data.h */,
+				C6104E33226EBD4900621441 /* subtable_container_table.h */,
+				C6104E34226EBD4900621441 /* table_subsetter.h */,
+				C6104E35226EBD4900621441 /* cmap_table.h */,
+				C6104E36226EBD4900621441 /* font_input_stream.h */,
+				C6104E37226EBD4900621441 /* font_factory.h */,
+				C6104E38226EBD4900621441 /* output_stream.h */,
+				C6104E39226EBD4900621441 /* byte_array.h */,
+				C6104E3A226EBD4900621441 /* table.h */,
+				C6104E3B226EBD4900621441 /* font.h */,
+				C6104E3C226EBD4900621441 /* refcount.h */,
+				C6104E3D226EBD4900621441 /* subtable.h */,
+				C6104E3E226EBD4900621441 /* memory_byte_array.h */,
+				C6104E3F226EBD4900621441 /* writable_font_data.h */,
+				C6104E40226EBD4900621441 /* font_data_table.h */,
+				C6104E41226EBD4900621441 /* atomic.h */,
+			);
+			path = include;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6104CFA226E981200621441 /* main.m in Sources */,
+				C6104F0B226EFBFB00621441 /* utils.cc in Sources */,
+				C6104E11226EB60800621441 /* main.cpp in Sources */,
+				C6104F11226EFCFF00621441 /* font_info.cc in Sources */,
+				C6104F08226EFBFB00621441 /* SSubsetter.cc in Sources */,
+				C6104F09226EFBFB00621441 /* character_predicate.cc in Sources */,
+				C6104F0A226EFBFB00621441 /* stats.cc in Sources */,
+				C6104F0E226EFC9C00621441 /* font_assembler.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,7 +399,18 @@
 		C6104CFE226E981200621441 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
 				CODE_SIGN_STYLE = Automatic;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				HEADER_SEARCH_PATHS = /Users/qishao/Downloads/icu/icu4c/source/common;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/sfntNewDemo",
+					"$(PROJECT_DIR)/sfntNewDemo/include",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -245,7 +418,18 @@
 		C6104CFF226E981200621441 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
 				CODE_SIGN_STYLE = Automatic;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				HEADER_SEARCH_PATHS = /Users/qishao/Downloads/icu/icu4c/source/common;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/sfntNewDemo",
+					"$(PROJECT_DIR)/sfntNewDemo/include",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
